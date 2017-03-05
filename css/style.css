@@ -255,7 +255,7 @@ input:placeholder-shown {
 #courses {
   background: #ebebeb;
   width: 100%;
-  height: 375px;
+  height: 425px;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -354,5 +354,155 @@ input:placeholder-shown {
     color: #35a0ad;
     letter-spacing: 1px;
     line-height: 26px; }
+
+#students {
+  background: white;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center; }
+
+#reviews {
+  width: 30%;
+  margin-left: 5%; }
+  #reviews h4 {
+    font-family: "PT Serif", serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #7a8288;
+    padding-bottom: 40px; }
+
+#quote {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #7a8288;
+  font-size: 30px;
+  padding-bottom: 30px; }
+
+#Jesse {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #7a8288;
+  padding-bottom: 30px; }
+  #Jesse span {
+    font-weight: bold; }
+
+#student-stories-button {
+  background: #6fbbb7;
+  height: 45px;
+  width: 245px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  border-style: none; }
+  #student-stories-button a {
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px; }
+    #student-stories-button a :hover {
+      text-decoration: none; }
+
+#student-stories-button:hover {
+  background: #5b9d99; }
+
+#profiles {
+  width: 50%;
+  margin: 0 auto;
+  float: right;
+  display: flex;
+  justify-content: space-around; }
+
+#Amber-profile {
+  width: 45%; }
+  #Amber-profile div {
+    display: flex;
+    justify-content: center; }
+    #Amber-profile div img {
+      display: block;
+      border-radius: 50%;
+      border: 4px solid #db820c;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      margin-bottom: 20px; }
+  #Amber-profile div p {
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    color: #7a8288;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 90%; }
+
+#Amber-Joyner {
+  display: block;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: #6fbbb7;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 7px;
+  text-decoration: none; }
+
+#Amber-Joyner:hover {
+  text-decoration: underline; }
+
+#interaction-engineer {
+  display: block;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  text-align: center;
+  color: #7a8288;
+  font-style: italic;
+  font-weight: normal; }
+
+#Bernard-profile {
+  width: 45%; }
+  #Bernard-profile div {
+    display: flex;
+    justify-content: center; }
+    #Bernard-profile div img {
+      display: block;
+      border-radius: 50%;
+      border: 4px solid #db820c;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      margin-bottom: 20px; }
+  #Bernard-profile div p {
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    color: #7a8288;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 90%; }
+
+#Bernard-Worthy {
+  display: block;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  color: #6fbbb7;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 7px;
+  text-decoration: none; }
+
+#Bernard-Worthy:hover {
+  text-decoration: underline; }
+
+#front-end-engineer {
+  display: block;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  text-align: center;
+  color: #7a8288;
+  font-style: italic;
+  font-weight: normal; }
 
 /*# sourceMappingURL=style.css.map */
