@@ -1,5 +1,4 @@
 @import "partials/variables";
-@import "partials/mixins";
 
 * {
   margin: 0;
@@ -961,7 +960,8 @@ input:placeholder-shown {
 }
 
 #email-button:hover {
-  background: $dark-turquoise;
+background: $dark-turquoise;
+}
 }
 
-}
+@import "partials/media-queries";
